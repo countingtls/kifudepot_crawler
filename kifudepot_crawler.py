@@ -56,8 +56,8 @@ if __name__ == '__main__':
 
     # start_page = 1
     start_page = 1
-    # last_page = 2399 #the last page number at 2023-05-02, update everyday, 
-    last_page = 2400
+    # last_page = 2399 # the last page number at 2023-05-02, update everyday,  # default only crawl the first page
+    last_page = 1
 
     # Iterate through the pages
     for page in range(start_page, last_page+1):
